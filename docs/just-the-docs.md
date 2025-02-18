@@ -2,7 +2,7 @@
 layout: page
 title: Outillage documentaire
 parent: Documentation Quickstart
-nav_order: 5
+nav_order: 8
 ---
 
 ## 📚 Démarrer avec Just the Docs
