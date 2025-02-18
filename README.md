@@ -1,4 +1,4 @@
-# doc-site
+# doc-site | ![Logo](logo_ds.png)
 
 [🇺🇸 English (US) friendly](https://translate.google.com/translate?sl=auto&tl=en&u=https://github.com/dsissoko/doc-site)
 
