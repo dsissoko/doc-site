@@ -47,6 +47,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Install Dependencies  # Ajout minimal pour éviter l'erreur
+        run: |
+          gem install bundler
+          bundle install
       - name: Build with Jekyll
         #working-directory: docs
         # Outputs to the './_site' directory by default
