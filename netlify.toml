@@ -3,8 +3,5 @@ command = "bundle install && bundle exec jekyll build"
 publish = "_site"
 
 [build.environment]
-RUBY_VERSION = "3.4.2"
-BUNDLE_PATH = "vendor/bundle"
+RUBY_VERSION = "3.2.2"
 
-[[plugins]]
-  package = "@netlify/plugin-cache"
