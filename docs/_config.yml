@@ -1,5 +1,5 @@
 title: doc-site
-description: site de documentation de votre projet
+description: Site de documentation de votre projet
 theme: just-the-docs
 
 url: https://github.com/dsissoko
@@ -27,3 +27,5 @@ color_scheme: dark
 sass:
   quiet_deps: true
 
+logo: "/assets/images/logo_ds.png"
+favicon_ico: "/assets/images/favicon.ico"
