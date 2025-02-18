@@ -4,88 +4,20 @@ title: Documentation Quickstart
 has_toc: true
 has_children: true
 nav_order: 1
+permalink: /
 ---
-
-{% if site.data.build_info %}
-**Version :** {{ site.data.build_info.version }}  
-**Build Date :** {{ site.data.build_info.buildDate }}
-{% else %}
-🚨 *Aucune information de build disponible (_data/build_info.yml).*
-{% endif %}
 
 # 🚀 Documentation Quickstart
 
-Bienvenue dans la documentation rapide de **Nom du Projet**. Ce guide vous accompagnera dans la prise en main du projet, sa compréhension architecturale et son déploiement.
+Bienvenue dans la documentation de **VOTRE Projet**.  
+Cette documentation est organisée pour vous aider à comprendre rapidement le projet et ses composants.
 
-## 📌 Introduction et Contexte
-
-Cette section présente l’objectif du projet, ses fonctionnalités clés et le contexte de son développement.  
-📖 *Pourquoi ce projet ? Quels problèmes résout-il ?*  
-🎯 *Quels sont ses principaux cas d’usage ?*
-
-
-## 🏗️ Architecture de la Solution
-
-Un aperçu détaillé de l’architecture technique du projet.
-
-### 📊 Diagramme d'Architecture
-
-Vous pouvez insérer un diagramme avec Mermaid pour illustrer l’architecture :  
-
-\```mermaid
-flowchart LR
-    subgraph Frontend
-        A[Client Léger]
-    end
-    subgraph Middleware
-        B[Backend Client]
-    end
-    subgraph Backend
-        C[Backend Server]
-        D[Base de Données]
-    end
-
-    A --> B
-    B --> C
-    C --> D
-\```
-
-👉 *Un beau schéma vaut mieux que le plus beau des discours !*
-
-### ⚙️ Choix Architecturaux
-
-- **📈 Scalabilité** : Comment l’architecture gère-t-elle la montée en charge ?
-- **🔐 Sécurité** : Quelles mesures sont en place pour protéger les données ?
-- **🛠️ Maintenabilité** : Comment l’architecture facilite-t-elle les mises à jour ?
-
-
-## 🛠️ Prérequis et Installation
-
-Listez ici toutes les dépendances et les étapes nécessaires pour installer et configurer l’environnement de développement. 
-
-
-## 🚀 Guide de Démarrage Rapide
-
-Fournissez les commandes essentielles pour lancer le projet en local, compiler le code et démarrer le serveur. 
-
-## 🤝 Contribution
-
-💡 **Vous souhaitez contribuer ?**  
-- Lisez les règles de contribution et les conventions de commits.
-- Proposez des **issues** et des **pull requests** sur le dépôt GitHub.
-
-
-## ❓ FAQ et Ressources
-
-Regroupez ici les réponses aux questions les plus fréquemment possées.
-
-
-## 📚 Démarrer avec Just the Docs
-
-Ce template utilise [Just the Docs](https://just-the-docs.github.io/just-the-docs/), une solution simple et efficace pour documenter vos projets.
-
-### 🔹 Premiers pas :
-1. Consultez la [documentation officielle](https://just-the-docs.github.io/just-the-docs/) pour personnaliser votre documentation.
-2. Adaptez le contenu de `docs/` selon vos besoins.
-3. Expérimentez la navigation et les options disponibles.
+## 📖 Table des matières
+📌 [Introduction et Contexte](introduction.md)  
+📌 [Architecture](architecture.md)  
+📌 [Prérequis et Installation](installation.md)  
+📌 [Déploiement](deploiement.md)  
+📌 [Utilisation de Just the Docs](just-the-docs.md)  
+📌 [Contribution](contribution.md)  
+📌 [FAQ & Ressources](faq.md)  
 

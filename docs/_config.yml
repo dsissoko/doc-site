@@ -24,3 +24,6 @@ aux_links:
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
 
+sass:
+  quiet_deps: true
+

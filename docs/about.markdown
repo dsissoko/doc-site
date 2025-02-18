@@ -1,18 +1,18 @@
 ---
 layout: page
-title: About
+title: À propos
+nav_order: 9
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# 📌 À propos de doc-site
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+**doc-site** est un template Jekyll conçu pour créer une documentation claire et bien structurée, avec un déploiement flexible sur **GitHub Pages** ou **Netlify**.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+🔹 **Basé sur Just the Docs**, il offre une navigation intuitive et une recherche intégrée.  
+🌙 **Mode clair/sombre** activable avec un simple bouton.  
+📊 **Support de Mermaid 11.4.1** pour intégrer facilement des diagrammes.
 
+🚀 **Prêt à l'emploi** : utilisez **[Use this template](https://github.com/YOUR-REPO-URL/generate)** pour démarrer rapidement votre propre documentation !
 
-[jekyll-organization]: https://github.com/jekyll
+---
