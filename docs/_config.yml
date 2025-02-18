@@ -2,7 +2,12 @@ title: doc-site
 description: site de documentation de votre projet
 theme: just-the-docs
 
-url: https://just-the-docs.com/
+url: https://github.com/dsissoko
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "11.4.1"
 
 aux_links_new_tab: true
 

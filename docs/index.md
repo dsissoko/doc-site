@@ -28,6 +28,7 @@ Insérez ici un diagramme illustrant les interactions entre les différents comp
 Par exemple, vous pouvez ajouter une image ou utiliser un outil comme Mermaid pour générer un schéma dynamique.
 
 ```mermaid
+
 flowchart LR
     subgraph Frontend
         A[Client Léger]
@@ -94,4 +95,4 @@ Ce template intègre le thème [Just the Docs](https://just-the-docs.github.io/j
 Bonne lecture et n'hésitez pas à contribuer pour améliorer le projet !
 
 ---
-© 2024 r3edge. [**Tous droits réservés**](LICENSE).
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
