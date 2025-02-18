@@ -28,7 +28,7 @@ Pour insérer un diagramme au format mermaid dans votre documentation utilisez l
 
 \```mermaid
 
-flowhart, diagramme de classe, voir : https://mermaid.js.org/
+flowhart, diagramme de classe, voir : [mermaid](https://mermaid.js.org/)
 
 \```
 
@@ -77,8 +77,8 @@ Fournissez les commandes essentielles pour lancer le projet en local, compiler l
 Exemple de commandes à insérer :
 
 ```bash
+   cd docs
    bundle install
-
    bundle exec jekyll serve
 ```
 
