@@ -25,7 +25,7 @@ Ce template intègre le thème [Just the Docs](https://just-the-docs.github.io/j
 ### Pour un Déploiement sur GitHub Pages (projets publics)
 
 1. Créez un nouveau dépôt à partir de ce template.
-2. Dans les paramètres du dépôt, activez GitHub Pages en choisissant le dossier `docs` comme source.
+2. Dans les paramètres du dépôt, activez GitHub Pages. L'action Github de déploiement est déjà configurée dans .github/workflows.
 3. Le site sera automatiquement déployé sur GitHub Pages.
 
 ### Pour un Déploiement sur Netlify (projets privés)
@@ -51,11 +51,15 @@ Pour tester le site en local :
 1. Installez [Ruby](https://www.ruby-lang.org/fr/) et [Bundler](https://bundler.io/).
 2. Dans le répertoire `docs`, installez les dépendances :
 
+```bash
    bundle install
+```
 
 3. Lancez Jekyll pour visualiser le site :
 
+```bash
    bundle exec jekyll serve
+```
 
 4. Rendez-vous sur [http://localhost:4000](http://localhost:4000) pour voir le résultat.
 
