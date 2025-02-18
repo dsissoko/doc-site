@@ -74,11 +74,13 @@ Fournissez les commandes essentielles pour lancer le projet en local, compiler l
 - Lisez les règles de contribution et les conventions de commits.
 - Proposez des **issues** et des **pull requests** sur le dépôt GitHub.
 
+---
 
 ## ❓ FAQ et Ressources
 
 Regroupez ici les réponses aux questions les plus fréquemment possées.
 
+---
 
 ## 📚 Démarrer avec Just the Docs
 
@@ -89,3 +91,7 @@ Ce template utilise [Just the Docs](https://just-the-docs.github.io/just-the-doc
 2. Adaptez le contenu de `docs/` selon vos besoins.
 3. Expérimentez la navigation et les options disponibles.
 
+---
+
+📜 **Licence** : Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.  
+📢 *Bonne lecture et bon développement !*

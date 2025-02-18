@@ -92,3 +92,9 @@ Si vous avez des suggestions ou des améliorations, n’hésitez pas à soumettr
 ## 📜 Licence
 
 Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
+
+## Badges
+
+[![Deploy Jekyll site to Pages](https://github.com/dsissoko/doc-site/actions/workflows/jekyll.yml/badge.svg)](https://github.com/dsissoko/doc-site/actions/workflows/jekyll.yml)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/62c43b36-9522-4424-b8d4-f1d7e4c87a3b/deploy-status)](https://app.netlify.com/sites/r3edge-doc-site/deploys)

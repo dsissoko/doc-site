@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.r3edge.commons"},{"l":"com.r3edge.commons.model"}];updateSearchResults();
