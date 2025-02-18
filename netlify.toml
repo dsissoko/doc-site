@@ -3,5 +3,6 @@ command = "bundle install && bundle exec jekyll build"
 publish = "_site"
 
 [build.environment]
-RUBY_VERSION = "3.1.2"
+RUBY_VERSION = "3.2.2"
+MISE_RUBY_BUILD = "false"
 
