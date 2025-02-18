@@ -2,7 +2,7 @@
 
 [🇺🇸 English (US) friendly](https://translate.google.com/translate?sl=auto&tl=en&u=https://github.com/dsissoko/doc-site)
 
-Bienvenue sur <doc-site> Un template Jekyll conçu pour générer un site statique élégant et structuré, avec une double option de déploiement :
+Bienvenue sur doc-site, un template Jekyll conçu pour générer un site statique élégant et structuré, avec une double option de déploiement :
 
 - **GitHub Pages** : Idéal pour les projets open-source.
 - **Netlify** : Parfait pour les projets privés (la version gratuite prend en charge les dépôts privés).
@@ -95,6 +95,6 @@ Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plu
 
 ## 🎯 Badges
 
-[![Deploy Jekyll site to Pages](https://github.com/dsissoko/<doc-site>/actions/workflows/jekyll.yml/badge.svg)](https://github.com/dsissoko/doc-site/actions/workflows/jekyll.yml)
+[![Deploy Jekyll site to Pages](https://github.com/dsissoko/doc-site/actions/workflows/jekyll.yml/badge.svg)](https://github.com/dsissoko/doc-site/actions/workflows/jekyll.yml)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/62c43b36-9522-4424-b8d4-f1d7e4c87a3b/deploy-status)](https://app.netlify.com/sites/r3edge-doc-site/deploys)
