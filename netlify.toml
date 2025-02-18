@@ -1,6 +1,7 @@
 [build]
+command = "bundle install && bundle exec jekyll build"
+#command = "bundle exec jekyll build"
 publish = "_site"
-command = "rbenv versions && exit 1"
 
 [build.environment]
 RUBY_VERSION = "3.2.2"
