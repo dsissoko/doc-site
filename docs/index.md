@@ -24,6 +24,14 @@ Ce chapitre présente une vue d'ensemble de l'architecture technique du projet.
 
 ### Diagramme d'Architecture
 
+Pour insérer un diagramme au format mermaid dans votre documentation utilisez la balise mermaid:
+
+\```mermaid
+
+flowhart, diagramme de classe, voir : https://mermaid.js.org/
+
+\```
+
 Insérez ici un diagramme illustrant les interactions entre les différents composants.  
 Par exemple, vous pouvez ajouter une image ou utiliser un outil comme Mermaid pour générer un schéma dynamique.
 
