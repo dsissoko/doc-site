@@ -5,7 +5,7 @@ Ce dépôt est un template pour un site statique Jekyll, conçu pour offrir une 
 - **GitHub Pages** pour les projets publics (le site est déployé depuis le répertoire `docs`)
 - **Netlify** pour les projets privés (la version gratuite de Netlify prend en charge les dépôts privés)
 
-Ce template intègre le thème [Just the Docs](https://just-the-docs.github.io/just-the-docs/), qui fournit une documentation élégante et conviviale pour structurer et présenter vos contenus.
+Ce template intègre le thème [Just the Docs](https://just-the-docs.github.io/just-the-docs/), qui fournit une documentation élégante et conviviale pour structurer et présenter vos contenus. La seule customization concerne un bouton de switch de theme "light/dark".
 
 ## Fonctionnalités
 
