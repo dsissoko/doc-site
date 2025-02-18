@@ -39,7 +39,7 @@ Ce template repose sur le thème [Just the Docs](https://just-the-docs.github.io
 ### ▶️ GitHub Pages (Projets Publics)
 
 1. **Créez un dépôt** en partant de ce template via **"Use this template"**.
-2. **Activez GitHub Pages** dans les paramètres du dépôt (l'action de déploiement est déjà configurée dans `.github/workflows`).
+2. **Activez GitHub Pages** dans les paramètres du dépôt (l'action de déploiement est déjà configurée dans `.github/workflows`). L'action GITHUB échouera tant que nous n'avez pas activé les pages.
 3. **Profitez du site** : Le déploiement s'effectue automatiquement.
 
 ### 🔒 Netlify (Projets Privés)
