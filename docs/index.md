@@ -49,6 +49,10 @@ flowchart LR
 
 👉 *Un beau schéma vaut mieux que le plus beau des discours !*
 
+[lien vers la javadoc](r3edge-commons/javadoc/index.html)
+
+[lien vers la javadoc](r3edge-commons/javadoc/)
+
 ### ⚙️ Choix Architecturaux
 
 - **📈 Scalabilité** : Comment l’architecture gère-t-elle la montée en charge ?
