@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 
-#Template de Documentation
+# Template de Documentation
 
 Bienvenue dans la documentation de **XXXXX**. Cette page sert de point de départ pour la documentation détaillée du dépôt.
 
