@@ -27,7 +27,23 @@ Ce chapitre présente une vue d'ensemble de l'architecture technique du projet.
 Insérez ici un diagramme illustrant les interactions entre les différents composants.  
 Par exemple, vous pouvez ajouter une image ou utiliser un outil comme Mermaid pour générer un schéma dynamique.
 
-![Diagramme d'Architecture](chemin/vers/diagramme.png)
+```mermaid
+flowchart LR
+    subgraph Frontend
+        A[Client Léger]
+    end
+    subgraph Middleware
+        B[Backend Client]
+    end
+    subgraph Backend
+        C[Backend Server]
+        D[Base de Données]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+```
 
 ### Composants Principaux
 
@@ -51,9 +67,11 @@ Listez ici toutes les dépendances et les étapes nécessaires pour installer et
 Fournissez les commandes essentielles pour lancer le projet en local, compiler le code et démarrer le serveur.  
 Exemple de commandes à insérer :
 
+```bash
    bundle install
 
    bundle exec jekyll serve
+```
 
 Ensuite, rendez-vous sur [http://localhost:4000](http://localhost:4000) pour voir le résultat.
 

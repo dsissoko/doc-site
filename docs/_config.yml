@@ -1,16 +1,20 @@
-title: Documentation R3edge
-description: Documentation du moteur et de l'appli r3edge
+title: doc-site
+description: site de documentation de votre projet
 theme: just-the-docs
 
-url: https://r3edge.com
+url: https://just-the-docs.com/
 
 aux_links_new_tab: true
 
 aux_links:
-  Kucoin:
-   - https://www.kucoin.com
-  Kraken:
-   - https://www.kraken.com
+  Just-The-Docs:
+   - https://just-the-docs.com/
+  Jekyll:
+   - https://jekyllrb.com/
+  Github pages:
+   - https://pages.github.com/
+  Netlify:
+   - https://www.netlify.com/  
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
