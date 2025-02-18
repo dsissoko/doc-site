@@ -1,76 +1,92 @@
 # doc-site
 
-Template pour un site statique Jekyll, conçu pour offrir une double possibilité de déploiement :
+Un template Jekyll conçu pour générer un site statique élégant et structuré, avec une double option de déploiement :
 
-- **GitHub Pages** pour les projets publics
-- **Netlify** pour les projets privés (la version gratuite de Netlify prend en charge les dépôts privés)
+- **GitHub Pages** : Idéal pour les projets open-source.
+- **Netlify** : Parfait pour les projets privés (la version gratuite prend en charge les dépôts privés).
 
-Ce template intègre le thème [Just the Docs](https://just-the-docs.github.io/just-the-docs/), qui fournit une documentation élégante et conviviale pour structurer et présenter vos contenus.
+🚀 **Pour utiliser ce projet, nous vous recommandons d'utiliser la fonction GitHub "[Use this template](https://github.com/YOUR-REPO-URL/generate)"** afin de créer rapidement votre propre dépôt basé sur ce modèle.
 
-Customizations ajoutées:
-- un bouton de switch de theme "light/dark".
-- support de mermaid 11.4.1
+Ce template repose sur le thème [Just the Docs](https://just-the-docs.github.io/just-the-docs/), qui offre une expérience fluide et moderne pour organiser et présenter vos contenus.
 
-## Fonctionnalités
+### ✨ Personnalisations incluses
+- Un **mode clair/sombre** avec un bouton de bascule intégré.
+- **Support de Mermaid 11.4.1** pour vos diagrammes et schémas.
 
-- **Jekyll** : Un générateur de site statique performant et personnalisable.
-- **Déploiement Flexible** : Choisissez GitHub Pages pour les projets open-source ou Netlify pour garder votre dépôt privé.
-- **Structure Claire** : Tout le contenu du site se trouve dans le répertoire `docs`, pour une gestion simplifiée.
-- **Thème Just the Docs** : Bénéficiez d'une mise en page moderne et d'une navigation intuitive pour votre documentation.
+---
 
-## Structure du Dépôt
+## 🚀 Fonctionnalités
 
-- `docs/` : Contient l'intégralité du site Jekyll (pages, layouts, assets, etc.)
-- `README.md` : Ce fichier, qui décrit le fonctionnement et les options de déploiement.
+- **Jekyll** : Un générateur de site statique performant et flexible.
+- **Déploiement optimisé** : GitHub Pages pour les projets publics, Netlify pour les projets privés.
+- **Organisation simplifiée** : Tout le contenu est centralisé dans `docs/` pour une gestion fluide.
+- **Thème Just the Docs** : Navigation intuitive, recherche intégrée et mise en page responsive.
+
+---
+
+## 📁 Structure du Dépôt
+
+- `docs/` : Contient l’intégralité du site (pages, layouts, assets, etc.).
+- `README.md` : Ce fichier, qui détaille le fonctionnement du template et les options de déploiement.
 - Autres fichiers de configuration et documentation.
 
-## Instructions d'Utilisation
+---
 
-### Pour un Déploiement sur GitHub Pages (projets publics)
+## 🚀 Déploiement
 
-1. Créez un nouveau dépôt à partir de ce template.
-2. Dans les paramètres du dépôt, activez GitHub Pages. L'action Github de déploiement est déjà configurée dans .github/workflows.
-3. Le site sera automatiquement déployé sur GitHub Pages.
+### ▶️ GitHub Pages (Projets Publics)
 
-### Pour un Déploiement sur Netlify (projets privés)
+1. **Créez un dépôt** en partant de ce template via **"Use this template"**.
+2. **Activez GitHub Pages** dans les paramètres du dépôt (l'action de déploiement est déjà configurée dans `.github/workflows`).
+3. **Profitez du site** : Le déploiement s'effectue automatiquement.
 
-1. Connectez votre dépôt à [Netlify](https://www.netlify.com/).
-2. Lors de la configuration, spécifiez le dossier `docs` comme répertoire de publication.
-3. Suivez les instructions Netlify pour finaliser le déploiement.
+### 🔒 Netlify (Projets Privés)
 
-## Démarrer avec Just the Docs
+1. **Connectez votre dépôt** à [Netlify](https://www.netlify.com/).
+2. **Définissez `docs/`** comme répertoire de publication lors de la configuration.
+3. **Déployez** et laissez Netlify s’occuper du reste !
 
-Ce template intègre le thème [Just the Docs](https://just-the-docs.github.io/just-the-docs/), idéal pour créer une documentation claire et structurée.
+---
 
-Pour bien démarrer :
+## 📖 Démarrer avec Just the Docs
 
-1. Consultez la [documentation officielle de Just the Docs](https://just-the-docs.github.io/just-the-docs/) pour découvrir toutes les options de configuration et de personnalisation.
-2. Explorez les exemples et les options de navigation offertes par le thème.
-3. Adaptez le contenu du répertoire `docs` selon vos besoins en suivant les guides proposés.
+Le template inclut le thème [Just the Docs](https://just-the-docs.github.io/just-the-docs/), idéal pour structurer votre documentation.
 
-## Développement Local
+### 🔹 Premiers pas :
+1. Consultez la [documentation officielle](https://just-the-docs.github.io/just-the-docs/) pour explorer toutes les options de personnalisation.
+2. Adaptez le contenu du répertoire `docs/` selon vos besoins.
+3. Expérimentez la navigation et les options disponibles pour optimiser votre documentation.
 
-Pour tester le site en local :
+---
+
+## 💻 Développement Local
+
+Envie de tester avant de déployer ? Voici comment lancer le site en local :
 
 1. Installez [Ruby](https://www.ruby-lang.org/fr/) et [Bundler](https://bundler.io/).
-2. Dans le répertoire `docs`, installez les dépendances :
+2. Dans le dossier `docs/`, installez les dépendances :
 
-```bash
+   ```bash
    bundle install
-```
+   ```
 
-3. Lancez Jekyll pour visualiser le site :
+3. Lancez Jekyll pour voir le site en local :
 
-```bash
+   ```bash
    bundle exec jekyll serve
-```
+   ```
 
-4. Rendez-vous sur [http://localhost:4000](http://localhost:4000) pour voir le résultat.
+4. Accédez à **[http://localhost:4000](http://localhost:4000)** pour voir le rendu.
 
-## Contribuer
+---
 
-Les contributions sont les bienvenues ! N'hésitez pas à soumettre une issue ou une pull request pour améliorer ce template.
+## 🤝 Contribuer
 
-## Licence
+Toutes les contributions sont les bienvenues !  
+Si vous avez des suggestions ou des améliorations, n’hésitez pas à soumettre une **issue** ou une **pull request**.
 
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
+---
+
+## 📜 Licence
+
+Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
