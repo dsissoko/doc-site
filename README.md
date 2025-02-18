@@ -1,6 +1,6 @@
 # doc-site
 
-[🇺🇸 English (US)](https://translate.google.com/translate?sl=auto&tl=en&u=https://github.com/dsissoko/doc-site)
+[🇺🇸 English (US) friendly](https://translate.google.com/translate?sl=auto&tl=en&u=https://github.com/dsissoko/doc-site)
 
 Un template Jekyll conçu pour générer un site statique élégant et structuré, avec une double option de déploiement :
 
