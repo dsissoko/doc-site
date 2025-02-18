@@ -1,0 +1,15 @@
+<button type="button" id="themeBtn" name="button" class="btn">🔄Theme</button>
+
+<script>
+  const toggleDarkMode = document.getElementById('themeBtn');
+
+  jtd.addEvent(toggleDarkMode, 'click', function () {
+      if (jtd.getTheme() === 'dark') {
+          jtd.setTheme('light');
+          toggleDarkMode.textContent = '🔄Theme';
+      } else {
+          jtd.setTheme('dark');
+          toggleDarkMode.textContent = '🔄Theme';
+      }
+  });
+</script>
