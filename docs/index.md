@@ -14,15 +14,12 @@ title: Documentation Quickstart
 
 Bienvenue dans la documentation rapide de **Nom du Projet**. Ce guide vous accompagnera dans la prise en main du projet, sa compréhension architecturale et son déploiement.
 
----
-
 ## 📌 Introduction et Contexte
 
 Cette section présente l’objectif du projet, ses fonctionnalités clés et le contexte de son développement.  
 📖 *Pourquoi ce projet ? Quels problèmes résout-il ?*  
 🎯 *Quels sont ses principaux cas d’usage ?*
 
----
 
 ## 🏗️ Architecture de la Solution
 
@@ -50,16 +47,7 @@ flowchart LR
     C --> D
 \```
 
-👉 *Pensez à adapter ce schéma à votre projet pour mieux refléter ses composants !*
-
----
-
-## 🔍 Composants Principaux
-
-- **🖥️ Front-end** : Framework/bibliothèque utilisée (React, Vue, Angular, etc.).
-- **🔗 Back-end** : API ou serveur principal (Node.js, Django, Spring Boot…).
-- **🗄️ Base de données** : Type et modèle (SQL, NoSQL, PostgreSQL, MongoDB…).
-- **🌐 Services Externes** : APIs tierces, microservices, intégrations.
+👉 *Un beau schéma vaut mieux que le plus beau des discours !*
 
 ### ⚙️ Choix Architecturaux
 
@@ -67,31 +55,15 @@ flowchart LR
 - **🔐 Sécurité** : Quelles mesures sont en place pour protéger les données ?
 - **🛠️ Maintenabilité** : Comment l’architecture facilite-t-elle les mises à jour ?
 
----
 
 ## 🛠️ Prérequis et Installation
 
-Avant de commencer, assurez-vous d’avoir les dépendances nécessaires :  
+Listez ici toutes les dépendances et les étapes nécessaires pour installer et configurer l’environnement de développement. 
 
-```bash
-# Exemple d’installation des prérequis
-cd docs
-bundle install
-```
-
----
 
 ## 🚀 Guide de Démarrage Rapide
 
-Lancez votre environnement de développement avec :  
-
-```bash
-bundle exec jekyll serve
-```
-
-Puis accédez à **[http://localhost:4000](http://localhost:4000)** pour voir le rendu.
-
----
+Fournissez les commandes essentielles pour lancer le projet en local, compiler le code et démarrer le serveur. 
 
 ## 🤝 Contribution
 
@@ -103,7 +75,7 @@ Puis accédez à **[http://localhost:4000](http://localhost:4000)** pour voir le
 
 ## ❓ FAQ et Ressources
 
-Retrouvez ici les réponses aux questions fréquentes, des solutions aux problèmes courants et des liens utiles.
+Regroupez ici les réponses aux questions les plus fréquemment possées.
 
 ---
 
