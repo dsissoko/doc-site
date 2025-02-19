@@ -85,23 +85,7 @@ Envie de tester avant de déployer ? Voici comment lancer le site en local :
 
 ## 🔗 Démarrer avec C4 model
 
-<table style="text-align: center">
-<tr>
-<td>
-<iframe src="https://www.youtube-nocookie.com/embed/x2-rSnhpw0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br />
-<b>Visualising software architecture with the C4 model</b>
-<br />
-Recorded at "Agile on the Beach 2019", July 2019
-</td>
-<td>
-<a href="https://leanpub.com/visualising-software-architecture"><img src="/images/book-small.png" width="150px" /></a>
-<br />
-<b>The C4 model for visualising software architecture</b>
-<br />Simon Brown
-</td>
-</tr>
-</table>
+- [Visualising software architecture with the C4 model](https://www.youtube.com/watch?v=x2-rSnhpw0g&t=1689s)
 
 ---
 
