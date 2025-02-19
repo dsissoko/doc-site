@@ -21,6 +21,7 @@ Ce template repose sur le thème [Just the Docs](https://just-the-docs.github.io
 
 - **Jekyll** : Un générateur de site statique performant et flexible.
 - **Déploiement optimisé** : GitHub Pages pour les projets publics, Netlify pour les projets privés.
+- **Déploiement conditionnel** : Pour éviter un failed de l'action github de déploiement quand les GITHUB pages n'est pas activé, vous pouvez positionner une variable pour les actions **PAGES_ENABLED** à false dans les settings de votre projet.
 - **Organisation simplifiée** : Tout le contenu est centralisé dans `docs/` pour une gestion fluide.
 - **Thème Just the Docs** : Navigation intuitive, recherche intégrée et mise en page responsive.
 
