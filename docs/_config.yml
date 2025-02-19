@@ -19,7 +19,9 @@ aux_links:
   Github pages:
    - https://pages.github.com/
   Netlify:
-   - https://www.netlify.com/  
+   - https://www.netlify.com/
+  matyalatte Playground:
+   - https://github.com/matyalatte/doc_test
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
