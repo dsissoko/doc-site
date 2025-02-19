@@ -21,7 +21,7 @@ Ce template repose sur le thème [Just the Docs](https://just-the-docs.github.io
 
 - **Jekyll** : Un générateur de site statique performant et flexible.
 - **Déploiement optimisé** : GitHub Pages pour les projets publics, Netlify pour les projets privés.
-- **Déploiement conditionnel** : Pour éviter un failed de l'action github de déploiement quand les GITHUB pages n'est pas activé, vous pouvez positionner une variable pour les actions **PAGES_ENABLED** à false dans les settings de votre projet.
+- **Déploiement conditionnel** : Pour éviter un failed de l'action github de déploiement quand les GITHUB pages ne sont pas activées, vous pouvez positionner une variable pour les actions **PAGES_ENABLED** à false dans les settings de votre projet.
 - **Organisation simplifiée** : Tout le contenu est centralisé dans `docs/` pour une gestion fluide.
 - **Thème Just the Docs** : Navigation intuitive, recherche intégrée et mise en page responsive.
 
@@ -40,7 +40,7 @@ Ce template repose sur le thème [Just the Docs](https://just-the-docs.github.io
 ### ▶️ GitHub Pages (Projets Publics)
 
 1. **Créez un dépôt** en partant de ce template via **"Use this template"**.
-2. **Activez GitHub Pages** dans les paramètres du dépôt (l'action de déploiement est déjà configurée dans `.github/workflows`). L'action GITHUB échouera tant que nous n'avez pas activé les pages.
+2. **Activez GitHub Pages** dans les paramètres du dépôt (l'action de déploiement est déjà configurée dans `.github/workflows`). L'action GITHUB échouera tant que nous n'avez pas activé les pages ou que vous n’avez pas positionnée une variable **PAGES_ENABLED** à false
 3. **Profitez du site** : Le déploiement s'effectue automatiquement.
 
 ### 🔒 Netlify (Projets Privés)
