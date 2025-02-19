@@ -2,10 +2,12 @@
 
 [🇺🇸 English (US) friendly](https://translate.google.com/translate?sl=auto&tl=en&u=https://github.com/dsissoko/doc-site)
 
-Bienvenue sur doc-site, un template Jekyll conçu pour générer un site statique élégant et structuré, avec une double option de déploiement :
+Bienvenue sur doc-site, un template Jekyll conçu pour générer un site de documenation de solutions logicielles. Deux proposions:
 
-- **GitHub Pages** : Idéal pour les projets open-source. <https://dsissoko.github.io/doc-site/>
-- **Netlify** : Parfait pour les projets privés (le plan gratuit prend en charge les dépôts privés). <https://docsite-demo.netlify.app/>
+1. **Double option de déploiement** : 
+   - **GitHub Pages** : Idéal pour les projets open-source. <https://dsissoko.github.io/doc-site/>
+   - **Netlify** : Parfait pour les projets privés (le plan gratuit prend en charge les dépôts privés). <https://docsite-demo.netlify.app/>
+2. **Une méthode de documentation de vos solutions logicielles** basée sur [C4 model ](https://c4model.com)
 
 🚀 **Pour utiliser ce projet, nous vous recommandons d'utiliser la fonction GitHub "[Use this template](https://github.com/dsissoko/doc-site/generate)"** afin de créer rapidement votre propre dépôt basé sur ce modèle.
 
@@ -80,6 +82,26 @@ Envie de tester avant de déployer ? Voici comment lancer le site en local :
    ```
 
 4. Accédez à **[http://localhost:4000](http://localhost:4000)** pour voir le rendu.
+
+## 🔗 Démarrer avec C4 model
+
+<table style="text-align: center">
+<tr>
+<td>
+<iframe src="https://www.youtube-nocookie.com/embed/x2-rSnhpw0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<b>Visualising software architecture with the C4 model</b>
+<br />
+Recorded at "Agile on the Beach 2019", July 2019
+</td>
+<td>
+<a href="https://leanpub.com/visualising-software-architecture"><img src="/images/book-small.png" width="150px" /></a>
+<br />
+<b>The C4 model for visualising software architecture</b>
+<br />Simon Brown
+</td>
+</tr>
+</table>
 
 ---
 
