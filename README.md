@@ -92,7 +92,7 @@ Si vous avez des suggestions ou des améliorations, n’hésitez pas à soumettr
 
 ## 📜 Licence
 
-Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
+© 2024-2025 David Sissoko. Distribué sous licence [MIT](LICENSE).
 
 ## 🎯 Badges
 
