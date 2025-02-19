@@ -6,4 +6,4 @@ nav_order: 4
 
 # ❓ FAQ et Ressources
 
-Regroupez ici les réponses aux questions les plus fréquemment possées.
+Regroupez ici les réponses aux questions les plus fréquemment posées.
