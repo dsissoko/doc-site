@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Code2
-parent: Component2
+parent: CTX1_CT1_Component2
 nav_order: 1
 ---
 

@@ -3,24 +3,23 @@ layout: page
 title: System context
 has_toc: true
 has_children: true
-permalink: /systemctx/
 nav_order: 2
+permalink: /systemctx/
 ---
 
 # System context
 
-En fonction de la complexité du système, il est tout à fait possible de définir plusieurs contextes. C'est un choix d'architecture arbitraire. Cependant, un **contexte unique** permet déjà de couvrir un large éventail de cas d'usage complexes.
+En fonction de la complexité du système, on peux tout à fait créer plusieurs contextes. C'est un choix d'architecture arbitraire. Toutefois un seul contexte permet de capter de nombreux cas d'usage déjà très complexes.
 
-En ce qui concerne l'organisation des fichiers Markdown, vous pouvez choisir une structure **plate** (tout dans un même dossier) ou une **arborescence de répertoires** selon vos besoins. Dans tous les cas, **chaque fichier `.md` doit avoir un nom unique**.
+D'un point de vue structure des fichiers markdown, vous pouvez les placer à plat ou dans une arborescence de répertoire. Dans tous les cas, chaque fichier .md doit avoir un nom unique.
 
-Pour garantir une cohérence dans le nommage des fichiers, il est préférable d'utiliser le nom de l'**abstraction C4 Model** correspondante (<https://c4model.com/abstractions>).  
-Par exemple, si vous documentez un **container de type webapp** pour un **système d'information voyageur**, nommez le fichier **`webapp-voyageur-iv.md`**.
+Je vous recommande de nommer les fichiers simplement avec le nom de l'abstraction qu'ils documentent (<https://c4model.com/abstractions>). Par exemple si vous documentez un container de type webapp pour un système d'information voyageur, alors nommez le fichier webapp-voyageur-iv.md.
 
-Je privilégie une **structure en répertoires**, car elle facilite la navigation et évite de se perdre dans la complexité du système lors de la rédaction.  
-Les exemples de ce template sont organisés par répertoire :
+Personnelement, je préfère une structure en répertoire car cela permet pendant la phase de rédaction de naviguer dans la complexité du système sans se perdre.
+Les exemples de ce template sont organisés par répertoire:
 
 ```plaintext
-system_context
+system_context/
 ├── context1
 │   ├── container1
 │   │   ├── component1
@@ -43,4 +42,3 @@ system_context
 │   └── context2.md
 └── system_context.md
 ```
-
