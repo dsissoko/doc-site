@@ -28,13 +28,10 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-env:
-  PAGES_ACTIVATED: ${{ vars.PAGES_ENABLED }}
-
 jobs:
   # Build job
   build:
-    if: env.PAGES_ENABLED == 'true'
+    if: ${{ vars.PAGES_ENABLED == 'true' || vars.PAGES_ENABLED == '' }}
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -72,7 +69,7 @@ jobs:
 
   # Deployment job
   deploy:
-    if: env.PAGES_ENABLED == 'true'
+    if: ${{ vars.PAGES_ENABLED == 'true' || vars.PAGES_ENABLED == '' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
