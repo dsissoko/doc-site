@@ -4,7 +4,7 @@
 
 Bienvenue sur doc-site, un template Jekyll conçu pour générer un site statique élégant et structuré, avec une double option de déploiement :
 
-- **GitHub Pages** : Idéal pour les projets open-source. 
+- **GitHub Pages** : Idéal pour les projets open-source. <https://dsissoko.github.io/doc-site/>
 - **Netlify** : Parfait pour les projets privés (la version gratuite prend en charge les dépôts privés). <https://docsite-demo.netlify.app/>
 
 🚀 **Pour utiliser ce projet, nous vous recommandons d'utiliser la fonction GitHub "[Use this template](https://github.com/YOUR-REPO-URL/generate)"** afin de créer rapidement votre propre dépôt basé sur ce modèle.
