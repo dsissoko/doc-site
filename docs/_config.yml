@@ -12,6 +12,8 @@ mermaid:
 aux_links_new_tab: true
 
 aux_links:
+  C4 Model:
+   - https://c4model.com/
   Just-The-Docs:
    - https://just-the-docs.com/
   Jekyll:
