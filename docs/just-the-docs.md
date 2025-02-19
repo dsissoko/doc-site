@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Outillage documentaire
-parent: Documentation Quickstart
-nav_order: 8
+nav_order: 5
 ---
 
-## 📚 Démarrer avec Just the Docs
+# 📚 Démarrer avec Just the Docs
 
 Ce template utilise [Just the Docs](https://just-the-docs.github.io/just-the-docs/), une solution simple et efficace pour documenter vos projets.
 

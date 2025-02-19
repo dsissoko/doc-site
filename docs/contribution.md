@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Contribution
-parent: Documentation Quickstart
-nav_order: 6
+nav_order: 3
 ---
 
-## 🤝 Contribution
+# 🤝 Contribution
 
 💡 **Vous souhaitez contribuer ?**  
 - Lisez les règles de contribution et les conventions de commits.
