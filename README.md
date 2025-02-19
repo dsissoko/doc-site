@@ -12,7 +12,7 @@ Bienvenue sur doc-site, un template Jekyll conçu pour générer un site statiqu
 Ce template repose sur le thème [Just the Docs](https://just-the-docs.github.io/just-the-docs/), qui offre une expérience fluide et moderne pour organiser et présenter vos contenus.
 
 ### ✨ Personnalisations incluses
-- Un **mode clair/sombre** avec un bouton de bascule intégré.
+- voir le [**_config.yml**](docs/_config.yml)
 - **Support de Mermaid 11.4.1** pour vos diagrammes et schémas.
 
 ---
