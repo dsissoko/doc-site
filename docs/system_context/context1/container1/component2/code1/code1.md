@@ -1,0 +1,9 @@
+---
+layout: page
+title: Code1
+parent: Component2
+nav_order: 1
+---
+
+# Code1
+Probably unnecessary to go into this level of detail.

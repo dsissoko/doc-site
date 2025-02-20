@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Outillage documentaire
+title: Documentation Tools
 nav_order: 5
 ---
 
-# 📚 Démarrer avec Just the Docs
+# 📚 Getting Started with Just the Docs
 
-Ce template utilise [Just the Docs](https://just-the-docs.github.io/just-the-docs/), une solution simple et efficace pour documenter vos projets.
+This template uses [Just the Docs](https://just-the-docs.github.io/just-the-docs/), a simple and effective solution for documenting your projects.
 
-### 🔹 Premiers pas :
-1. Consultez la [documentation officielle](https://just-the-docs.github.io/just-the-docs/) pour personnaliser votre documentation.
-2. Adaptez le contenu de `docs/` selon vos besoins.
-3. Expérimentez la navigation et les options disponibles.
+### 🔹 Getting Started:
+1. Check the [official documentation](https://just-the-docs.github.io/just-the-docs/) to customize your documentation.
+2. Adapt the content of `docs/` to your needs.
+3. Explore the navigation and available options.

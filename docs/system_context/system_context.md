@@ -9,36 +9,11 @@ permalink: /systemctx/
 
 # System context
 
-En fonction de la complexité du système, on peux tout à fait créer plusieurs contextes. C'est un choix d'architecture arbitraire. Toutefois un seul contexte permet de capter de nombreux cas d'usage déjà très complexes.
+Depending on the complexity of the system, multiple contexts can be created. This is an arbitrary architectural choice. However, a single context allows capturing many already complex use cases.
 
-D'un point de vue structure des fichiers markdown, vous pouvez les placer à plat ou dans une arborescence de répertoire. Dans tous les cas, chaque fichier .md doit avoir un nom unique.
+From a markdown file structure perspective, you can place them flat or in a directory hierarchy. In all cases, each `.md` file must have a unique name.
 
-Je vous recommande de nommer les fichiers simplement avec le nom de l'abstraction qu'ils documentent (<https://c4model.com/abstractions>). Par exemple si vous documentez un container de type webapp pour un système d'information voyageur, alors nommez le fichier webapp-voyageur-iv.md.
+I recommend naming files simply with the name of the abstraction they document (<https://c4model.com/abstractions>). For example, if you are documenting a webapp-type container for a traveler information system, name the file `webapp-voyageur-iv.md`.
 
-Personnelement, je préfère une structure en répertoire car cela permet pendant la phase de rédaction de naviguer dans la complexité du système sans se perdre.
-Les exemples de ce template sont organisés par répertoire:
-
-```plaintext
-system_context/
-├── context1
-│   ├── container1
-│   │   ├── component1
-│   │   │   └── ctx1ct1component1.md
-│   │   ├── component2
-│   │   │   ├── code1
-│   │   │   │   └── ctx1ct1cp2code1.md
-│   │   │   ├── code2
-│   │   │   │   └── ctx1ct1cp2code2.md
-│   │   │   └── ctx1ct1component2.md
-│   │   └── ctx1container1.md
-│   ├── container2
-│   │   ├── component1
-│   │   │   └── ctx1ct2component1.md
-│   │   ├── component2
-│   │   │   └── ctx1ct2component2.md
-│   │   └── ctx1container2.md
-│   └── context1.md
-├── context2
-│   └── context2.md
-└── system_context.md
-```
+Personally, I prefer a directory structure as it allows navigating through the complexity of the system during the drafting phase without getting lost.
+The examples in this template are organized by directory:

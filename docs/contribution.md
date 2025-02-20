@@ -6,6 +6,6 @@ nav_order: 3
 
 # 💡 Contribution
 
-Décrivez ici les différentes possiblités de contribution au projet.
+Describe here the different ways to contribute to the project.
 
-Précisez également les règles et les conventions.
+Also specify the rules and conventions.

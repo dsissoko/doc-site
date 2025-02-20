@@ -5,16 +5,16 @@ nav_order: 1
 permalink: /
 ---
 
-# 🚀 Modèle de site documentaire
+# 🚀 Documentation Site Model
 
-## Bienvenue
-Bienvenue dans la documentation de **VOTRE PROJET**. 
-Ce site est organisée pour vous aider à documenter facilement le projet et ses composants.
+## Welcome
+Welcome to the **YOUR PROJECT** documentation.
+This site is organized to help you easily document the project and its components.
 
-La rubrique principale est [System Context](/systemctx/) qui contiendra le coeur de votre documentation.
+The main section is [System Context](/systemctx/), which will contain the core of your documentation.
 
-La démarche se base sur le modèle C4 (<https://c4model.com/>) et propose 4 vues principales imbriquées:
- 1. Le Contexte du système: une vue d'ensemble des acteurs intéragissant avec les systèmes de haut niveau de la solution
- 2. Les containers: un Zoom sur les différents constituants du contexte système
- 3. Les composants: Pour chaque containers, un Zoom sur les différents constituants du container
- 4. Le code: Pour chaque composants, le code et les paramètres des runtime associés aux composants
+The approach is based on the C4 model (<https://c4model.com/>) and proposes 4 main nested views:
+ 1. System Context: An overview of the actors interacting with the high-level systems of the solution.
+ 2. Containers: A zoom into the various components of the system context.
+ 3. Components: For each container, a zoom into its different constituents.
+ 4. Code: For each component, the code and runtime parameters associated with the components.

@@ -4,6 +4,6 @@ title: FAQ
 nav_order: 4
 ---
 
-# ❓ FAQ et Ressources
+# ❓ FAQ and Resources
 
-Regroupez ici les réponses aux questions les plus fréquemment posées.
+Gather here the answers to the most frequently asked questions.

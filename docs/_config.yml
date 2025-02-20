@@ -14,6 +14,8 @@ aux_links_new_tab: true
 aux_links:
   C4 Model:
    - https://c4model.com/
+  Mermaid:
+   - https://mermaid.js.org/ecosystem/tutorials.html
   Just-The-Docs:
    - https://just-the-docs.com/
   Jekyll:
@@ -22,8 +24,8 @@ aux_links:
    - https://pages.github.com/
   Netlify:
    - https://www.netlify.com/
-  matyalatte Playground:
-   - https://github.com/matyalatte/doc_test
+  #matyalatte Playground:
+   #- https://github.com/matyalatte/doc_test
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
