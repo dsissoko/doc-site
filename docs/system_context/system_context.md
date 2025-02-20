@@ -43,5 +43,5 @@ system_context/
 └── system_context.md
 ```
 
-⚠️ Remember: you can duplicate the directories name but ecach files name and title page have to be unique.
+⚠️ Reminder: You can duplicate directory names, but each file name and page title must be unique.
 
