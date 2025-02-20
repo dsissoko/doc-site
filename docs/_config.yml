@@ -14,7 +14,7 @@ aux_links_new_tab: true
 aux_links:
   C4 Model:
    - https://c4model.com/
-  Structurized:
+  Structurizr:
    - https://structurizr.com/
   Mermaid:
    - https://mermaid.js.org/ecosystem/tutorials.html
