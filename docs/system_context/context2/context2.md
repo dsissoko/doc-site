@@ -8,4 +8,4 @@ nav_order: 2
 ---
 
 # Context 2
-Le  contexte 2 ...
+This context is the highest-level view of the system to be modeled. For more details, see <https://c4model.com/diagrams/system-context>.

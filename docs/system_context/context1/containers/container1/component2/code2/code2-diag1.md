@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Code1
-parent: Component2
+title: Code2
+parent: Component2 diag1
 nav_order: 1
 ---
 
-# Code1
+# Code2
 Probably unnecessary to go into this level of detail.

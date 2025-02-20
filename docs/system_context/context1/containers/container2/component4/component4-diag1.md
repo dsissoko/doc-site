@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Component4
+title: Component4 diag1
 parent: Container2
 has_toc: true
 has_children: true
