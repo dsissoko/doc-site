@@ -21,26 +21,32 @@ The examples in this template are organized by directory:
 ```plaintext
 system_context/
 ├── context1
-│   ├── container1
-│   │   ├── component1
-│   │   │   └── component1.md
-│   │   ├── component2
-│   │   │   ├── code1
-│   │   │   │   └── code1.md
-│   │   │   ├── code2
-│   │   │   │   └── code2.md
-│   │   │   └── component2.md
-│   │   └── container1.md
-│   ├── container2
-│   │   ├── component3
-│   │   │   └── component3.md
-│   │   ├── component4
-│   │   │   └── component4.md
-│   │   └── container2.md
-│   └── context1.md
+│   ├── containers
+│   │   ├── container1
+│   │   │   ├── components
+│   │   │   │   ├── component1
+│   │   │   │   │   └── component1-diag1.md
+│   │   │   │   └── component2
+│   │   │   │       ├── code
+│   │   │   │       │   ├── code1
+│   │   │   │       │   │   └── code1-diag1.md
+│   │   │   │       │   └── code2
+│   │   │   │       │       └── code2-diag1.md
+│   │   │   │       ├── component2-diag1.md
+│   │   │   │       └── component2-diag2.md
+│   │   │   └── container1-diag1.md
+│   │   ├── container2
+│   │   │   ├── component3
+│   │   │   │   ├── component3-diag1.md
+│   │   │   │   └── component3-diag2.md
+│   │   │   ├── component4
+│   │   │   │   └── component4-diag1.md
+│   │   │   └── container2-diag1.md
+│   │   └── containers-overview.md
+│   └── context1-diag1.md
 ├── context2
 │   └── context2.md
-└── system_context.md
+└── contexts-overview.md
 ```
 
 ⚠️ Reminder: You can duplicate directory names, but each file name and page title must be unique.

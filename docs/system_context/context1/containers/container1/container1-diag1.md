@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Container1
+# Parent MUST be a CONTEXT
 parent: Context1
 has_toc: true
 has_children: true

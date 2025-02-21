@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Component1 diag1
+# Parent MUST be a CONTAINER
 parent: Container1
 has_toc: true
 has_children: true
