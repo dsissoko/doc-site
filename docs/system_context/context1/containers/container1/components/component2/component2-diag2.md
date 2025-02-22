@@ -5,7 +5,7 @@ title: Component2 diag2
 parent: Container1
 has_toc: true
 has_children: true
-nav_order: 2
+nav_order: 4
 ---
 
 # Component2
@@ -13,4 +13,4 @@ nav_order: 2
 It plays a crucial role in **[main purpose]**, interacting with other components and external systems.
 
 ## **High-Level Diagram**
-_(Include a Mermaid.js diagram here showing how Component1 interacts with other components and services.)_
+_(Include a Mermaid.js diagram here showing how Component2 interacts with other components and services.)_

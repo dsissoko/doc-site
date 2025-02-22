@@ -7,4 +7,4 @@ nav_order: 1
 ---
 
 # Code1
-Probably unnecessary to go into this level of detail.
+Only for critical code.

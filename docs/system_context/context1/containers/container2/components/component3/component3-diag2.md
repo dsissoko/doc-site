@@ -13,4 +13,4 @@ nav_order: 1
 It plays a crucial role in **[main purpose]**, interacting with other components and external systems.
 
 ## **High-Level Diagram**
-_(Include a Mermaid.js diagram here showing how Component1 interacts with other components and services.)_
+_(Include a Mermaid.js diagram here showing how Component3 interacts with other components and services.)_

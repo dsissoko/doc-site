@@ -17,7 +17,7 @@ aux_links:
   Structurizr:
    - https://structurizr.com/
   Mermaid:
-   - https://mermaid.js.org/ecosystem/tutorials.html
+   - https://mermaid.js.org/syntax/c4.html
   Just-The-Docs:
    - https://just-the-docs.com/
   #Jekyll:
@@ -30,7 +30,7 @@ aux_links:
    #- https://github.com/matyalatte/doc_test
 
 # Color scheme supports "light" (default) and "dark"
-color_scheme: dark
+color_scheme: light
 
 sass:
   quiet_deps: true
