@@ -68,20 +68,25 @@ Le template inclut le thème [Just the Docs](https://just-the-docs.github.io/jus
 
 Envie de tester avant de déployer ? Voici comment lancer le site en local :
 
-1. Installez [Ruby](https://www.ruby-lang.org/fr/) et [Bundler](https://bundler.io/).
-2. Dans le dossier `docs/`, installez les dépendances :
+1. Installez [Ruby](https://rvm.io/)
 
    ```bash
    bundle install
    ```
 
-3. Lancez Jekyll pour voir le site en local :
+3. Dans le dossier `docs/`, installez les dépendances :
+
+   ```bash
+   bundle install
+   ```
+
+4. Lancez Jekyll pour voir le site en local :
 
    ```bash
    bundle exec jekyll serve
    ```
 
-4. Accédez à **[http://localhost:4000](http://localhost:4000)** pour voir le rendu.
+5. Accédez à **[http://localhost:4000](http://localhost:4000)** pour voir le rendu.
 
 ## 🔗 Démarrer avec C4 model
 
