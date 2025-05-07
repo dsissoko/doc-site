@@ -102,8 +102,8 @@ Envie de tester avant de déployer ? Voici comment lancer le site en local :
 
 6. Commit du site
 
-   Si les pages github sont correctement configurées, alors le site sera directement disponible sur <https://dsissoko.github.io/doc-site/>
-   Si la connection avec Netlify est correctement configurée, alors le site est directement disponible sur <https://docsite-demo.netlify.app/>. Il vous restera à le sécuriser.
+   - Si les pages github sont correctement configurées, alors le site sera directement disponible sur <https://dsissoko.github.io/doc-site/>
+   - Si la connection avec Netlify est correctement configurée, alors le site est directement disponible sur <https://docsite-demo.netlify.app/>. Il vous restera à le sécuriser.
    
 ## 🔗 Démarrer avec C4 model
 
