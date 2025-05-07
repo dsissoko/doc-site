@@ -102,8 +102,9 @@ Envie de tester avant de déployer ? Voici comment lancer le site en local :
 
 6. Commit du site
 
-l'action Github effectuera le déploiement pour vous dans Netlify automatique
-
+   Si les pages github sont correctement configurées, alors le site sera directement disponible sur <https://dsissoko.github.io/doc-site/>
+   Si la connection avec Netlify est correctement configurée, alors le site est directement disponible sur <https://docsite-demo.netlify.app/>. Il vous restera à le sécuriser.
+   
 ## 🔗 Démarrer avec C4 model
 
 - [Visualising software architecture with the C4 model](https://www.youtube.com/watch?v=x2-rSnhpw0g&t=1689s)
