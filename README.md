@@ -71,12 +71,24 @@ Envie de tester avant de déployer ? Voici comment lancer le site en local :
 1. Installez [Ruby](https://rvm.io/)
 
    ```bash
-   bundle install
+   # suivez la procédure à jour sur https://rvm.io/ qui resemble à ça:
+   gpg --keyserver keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+   # vous pouvez utiliser gpg2 également
+   curl -sSL https://get.rvm.io | bash -s stable
+   source ~/.rvm/scripts/rvm
+   rvm install 3.2.2
+   ruby -v
+   ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x86_64-linux]
+   gem -v
+   3.4.10   
    ```
 
 3. Dans le dossier `docs/`, installez les dépendances :
 
    ```bash
+   cd docs
+   # la magie rvm opère en détectant directement .ruby-version
+   Using /home/david/.rvm/gems/ruby-3.2.2
    bundle install
    ```
 
