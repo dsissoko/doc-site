@@ -95,10 +95,14 @@ Envie de tester avant de déployer ? Voici comment lancer le site en local :
 4. Lancez Jekyll pour voir le site en local :
 
    ```bash
-   bundle exec jekyll serve
+   bundle exec jekyll serve --livereload
    ```
 
-5. Accédez à **[http://localhost:4000](http://localhost:4000)** pour voir le rendu.
+5. Accédez à **[http://localhost:4000](http://localhost:4000)** pour voir le rendu, enrichissz votre site avec de nouvelles pages, rafraichissez votre navigateur ;-)
+
+6. Commit du site
+
+l'action Github effectuera le déploiement pour vous dans Netlify automatique
 
 ## 🔗 Démarrer avec C4 model
 
