@@ -21,8 +21,7 @@ Une version anglaise auto-traduite est disponible ici :
 - ✅ **Organisation simple** : tout le contenu dans `docs/`
 - ✅ **Thème [Just the Docs](https://just-the-docs.github.io/just-the-docs/)** : navigation latérale, recherche intégrée, responsive
 - ✅ **Support natif de [Mermaid](https://mermaid.js.org/)** pour vos diagrammes et schémas
-- ✅ **Documentation C4 model-ready** : modélisez vos architectures ([C4 model](https://c4model.com))
-- ✅ **Déploiement conditionnel** : variable `PAGES_ENABLED=false` pour désactiver GitHub Pages et éviter les erreurs d’action
+- ✅ **Documentation C4 model-ready** : modélisez vos architectures ([C4 model](https://c4model.com))  
 - ✅ **Personnalisation facile** : éditez [`docs/_config.yml`](docs/_config.yml) pour adapter le thème ou la navigation (toutes les options [Just the Docs](https://just-the-docs.github.io/just-the-docs/docs/configuration/) sont supportées)
 
 ---
