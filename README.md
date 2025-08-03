@@ -33,6 +33,12 @@ Une version anglaise auto-traduite est disponible ici :
 
 - Cliquez sur [Use this template](https://github.com/dsissoko/doc-site/generate) pour générer votre repo en 2 clics
 
+> ⚡ **Déploiement automatisé prêt à l'emploi !**
+>
+> Ce template inclut déjà un workflow **GitHub Actions** (`.github/workflows/jekyll.yml`) pour builder et publier automatiquement votre documentation sur GitHub Pages à chaque commit dans le dossier `docs/`.
+>
+> Vous pouvez désactiver le déploiement GitHub Pages en positionnant la variable `PAGES_ENABLED=false` dans les Settings → Variables du dépôt.
+
 ### 2️⃣ Déployez… selon votre besoin
 
 #### ▶️ Sur GitHub Pages (public OSS)
@@ -41,8 +47,9 @@ Une version anglaise auto-traduite est disponible ici :
 - Le workflow `.github/workflows` est déjà configuré
 - Si GitHub Pages n’est pas activé :  
   - Positionnez la variable **PAGES_ENABLED** à `false` pour éviter le fail de l’action
-- Le site sera publié sur  
+- Sinon, le site sera publié sur  
   - `https://<votre-user>.github.io/<votre-repo>/`
+  - Exemple pour ce dépôt : [https://dsissoko.github.io/doc-site/](https://dsissoko.github.io/doc-site/)
 
 #### 🔒 Sur Netlify (projet privé ou public)
 
