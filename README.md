@@ -47,16 +47,16 @@ Une version anglaise auto-traduite est disponible ici :
 - Le workflow `.github/workflows` est déjà configuré
 - Si GitHub Pages n’est pas activé :  
   - Positionnez la variable **PAGES_ENABLED** à `false` pour éviter le fail de l’action
-- Sinon, le site sera publié sur  
+- Sinon, à chaque nouveau commit, le site sera publié sur  
   - `https://<votre-user>.github.io/<votre-repo>/`
   - Exemple pour ce dépôt : [https://dsissoko.github.io/doc-site/](https://dsissoko.github.io/doc-site/)
 
 #### 🔒 Sur Netlify (projet privé ou public)
 
-- [Connectez votre repo à Netlify](https://www.netlify.com/)
+- [Connectez votre dépôt GITHUB à Netlify](https://www.netlify.com/)
 - **Définissez `docs/` comme répertoire de publication**
-- Déployez, c’est fait :  
-  - Demo : https://docsite-demo.netlify.app/
+- Déployez, c’est fait : chaque nouveau commit sera déployé sur le site 
+  - Exemple pour ce dépôt : [https://docsite-demo.netlify.app/](https://docsite-demo.netlify.app/)
 
 ---
 
